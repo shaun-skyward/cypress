@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "Cypress IO testing for Skyward IO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shaun",
+    "testing",
+    "skyward"
+  ],
+  "author": "Shaun",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^1.0.3",
+    "faker": "^4.1.0"
+  },
+  "dependencies": {}
+}
