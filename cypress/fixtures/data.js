@@ -1,7 +1,8 @@
 import faker from 'faker';
 
-const randomName = faker.name.findName();
+const randomFirstName = faker.name.firstName();
+const lastName = 'Testing';
 const randomEmail = faker.internet.email();
 const randomCard = faker.helpers.createCard();
 
-export { randomName, randomEmail, randomCard };
+export { randomFirstName, lastName, randomEmail, randomCard };

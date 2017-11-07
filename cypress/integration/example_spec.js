@@ -1,4 +1,4 @@
-//
+/* //
 // **** Kitchen Sink Tests ****
 //
 // This app was developed to demonstrate
@@ -1475,4 +1475,4 @@ describe.skip('Kitchen Sink', function(){
       })
     })
   })
-})
+}) */
