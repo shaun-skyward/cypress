@@ -13,9 +13,12 @@
   ],
   "author": "Shaun",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "eslint": "^4.10.0",
     "cypress": "^1.0.3",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
     "faker": "^4.1.0"
-  },
-  "dependencies": {}
+  }
 }
