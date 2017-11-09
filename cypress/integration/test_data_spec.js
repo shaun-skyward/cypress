@@ -2,7 +2,7 @@ import { randomFirstName, lastName, randomEmail } from '../fixtures/data';
 
 const utc = new Date().toJSON().slice(0, 10).replace(/-/g, '/');
 
-describe('Testing Random Data Generator', () => {
+describe.skip('Testing Random Data Generator', () => {
   context('Logging Faker.js data', () => {
     beforeEach(() => {
       cy.log('Test run on ' + utc);

@@ -3,7 +3,7 @@ import signUpPO from '../page_objects/sign_up_page';
 
 const userName = randomFirstName;
 
-describe('Sign Up Page Testing', () => {
+describe.skip('Sign Up Page Testing', () => {
   context('Sign Up Page Functional Testing', () => {
     beforeEach(() => {
       cy.log('Test run on ' + utc);

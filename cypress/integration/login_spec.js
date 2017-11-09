@@ -1,6 +1,6 @@
 import signInPO from '../page_objects/sign_in_page';
 
-describe('Login Page', () => {
+describe.skip('Login Page', () => {
   context('Login Page functional testing', () => {
     beforeEach(() => {
       cy.visit('https://app.skyward.io/s#/sign-in');
