@@ -34,7 +34,7 @@ const accountDashboardPO = {
   skywardFlightContentModule: '.skyward-flights.content-module',
   documentListContainter: '.document-list-container',
   documentTabs: '.library-tabs',
-  documentUploadContainer: '.upload-container'
-}
+  documentUploadContainer: '.upload-container',
+};
 
 export default accountDashboardPO;

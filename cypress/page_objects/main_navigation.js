@@ -8,7 +8,7 @@ const mainNavigationPO = {
   findPilotNotification: '.nav-right a[ng-href="#/findPilots/notifications"]',
   calendarNotification: '.nav-right a[ng-href="#/calendar/month"]',
   contextSwitcher: '.skyward-context-switcher',
-  contextDropdownMenu: 'ul[role="menu"]'
-}
+  contextDropdownMenu: 'ul[role="menu"]',
+};
 
 export default mainNavigationPO;

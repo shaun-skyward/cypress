@@ -1,4 +1,4 @@
-import signInPO from '../../page_objects/sign_in_page';
+import signInPO from '../page_objects/sign_in_page';
 
 describe('Login Page', () => {
   context('Login Page functional testing', () => {
@@ -28,7 +28,7 @@ describe('Login Page', () => {
       cy.get(signInPO.loginError).should('be.visible').contains('Username or password is invalid');
     });
 
-    it('Forgot Password: Send password reset', () => {
+    it.skip('Forgot Password: Send password reset', () => {
       cy.get(signInPO.forgotPasswordLink).click();
       cy.get(signInPO.resetUsernameInput).type('shaun.foran@skyward.io');
       cy.get(signInPO.sendButton).click();
